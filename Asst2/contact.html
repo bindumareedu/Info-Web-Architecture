@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us!</title>
+</head>
+<body>
+<nav align="center">
+  <a id="1" href="home.html">Home</a> |
+  <a href="about.html">About Me</a> |
+  <a href="consulting.html">Consulting</a> |
+  <a href="contact.html">Contact Us</a>
+  </nav>
+  <br/>
+	<h1>Contact us!</h1>
+	<form id="contactform">
+		Name: <input type="text" name="name"><br>
+  		Email: <input type="email" name="email"><br>
+  		Gender: <br>
+  		<input type="radio" name="gender" value="male" checked> Male<br>
+  		<input type="radio" name="gender" value="female"> Female<br>
+  		<input type="radio" name="gender" value="other"> Other<br>
+  		Birthdate: <input type="date" name="bday"><br>
+  		State: <input list="states" autocomplete="on"><br>
+			<datalist id="states">
+				<option value="California"></option>
+				<option value="Florida"></option>
+				<option value="Illinois"></option>
+			  	<option value="Indiana"></option>
+			  	<option value="New Jersey"></option>
+			  	<option value="New Mexico"></option>
+			  	<option value="New York"></option>
+			  	<option value="North Carolina"></option>
+			  	<option value="Texas"></option>
+			 	<option value="Washington"></option>  
+			</datalist>
+		</input>
+		Comments:<br>
+		<textarea name="comment" rows="5" cols="50"></textarea><br>
+		<input type="submit" value="Submit">
+  		<input type="reset">
+	</form>
+	
+</body>
+</html>
